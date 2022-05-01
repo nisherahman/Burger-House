@@ -61,10 +61,6 @@ img{
 }
 /* font family ends */
 
-
-/* navbar part starts */
-
-
 /* navbar part starts */
 .navbar {
 	background: #ffc045;
@@ -324,8 +320,8 @@ img{
 #footer {
 	background: url(../images/footer-bg.png) no-repeat center / cover;
 	height: 500px;
-	margin-top: 84px;
-    margin-bottom:60px !important;
+	margin-top: -26px;
+	margin-bottom: 60px !important;
 }
 #footer .footer-left .footer-logo{
     margin-top:80px;
