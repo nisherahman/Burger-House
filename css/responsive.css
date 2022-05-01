@@ -130,6 +130,9 @@ extra small device satrts
     #event {
         padding-top: 10px;
     }
+    #event .event-item {
+        margin-left: 45px;
+    }
     #event .event-item .event-text h5 {
         margin-top: 8px;
         margin-bottom: 3px !important;
@@ -141,6 +144,7 @@ extra small device satrts
     #event .event-item .event-text p {
         margin-top: 22px;
         margin-bottom: 23px !important;
+        padding-right: 25px;
     }
     #event .event-img img {
         width: 89% !important;
@@ -155,7 +159,7 @@ extra small device satrts
     }
     #book .book-head h4 {
         margin-top: 15px;
-        margin-bottom: 40px !important;
+        margin-bottom: 74px !important;
         font-size: 18px;
     }
     #book .book-img1 img {
@@ -163,21 +167,21 @@ extra small device satrts
     }
     #book .book-img2 {
         position: absolute;
-        top: 48px;
-        left: 269px;
+        top: 39px;
+        left: 274px;
     }
     #book .book-img2 img {
-        width: 97%;
+        width: 96%;
     }
-    #book .book-form input{
+    #book .book-form input {
         margin-bottom: 16px !important;
         width: 280px;
-        margin-left: 12px;
+        margin-left: 22px;
         font-size: 14px;
     }
     #book .book-form .btn {
         width: 279px;
-        margin-left: 12px;
+        margin-left: 22px;
     }
     /* book part ends */
 
