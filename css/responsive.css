@@ -6,14 +6,18 @@ extra small device satrts
     .navbar {
         top: 25px;
     }
-    .navbar-light .navbar-brand img{
-        width: 58%; 
+    .navbar-light .navbar-brand img {
+        width: 46%;
     }
     .navbar-light .navbar-toggler {
         color: var(--brand);
-        margin-top: -38px;
-        margin-left: 259px;
+        margin-top: -33px;
+        margin-left: 268px;
         border-color: #fff;
+        width: 40px;
+    }
+    .navbar-light .navbar-toggler i{
+        font-size: 18px;
     }
     .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active {
         margin-left: 50px;
@@ -217,8 +221,9 @@ extra small device satrts
         margin-left: 0px;
         margin-top: 20px;
     }
-    #footer .social-links i {
+    #footer .social-links a i {
         font-size: 18px;
+        color:#fff;
     }
     /* footer part ends */
 }
@@ -359,6 +364,102 @@ extra small device ends
         margin-top: 25px;
     }
     /* service part ends */
+
+     /* event part starts */
+     #event {
+        padding-top: 10px;
+    }
+    #event .event-item {
+        margin-left: 45px;
+    }
+    #event .event-item .event-text h5 {
+        margin-top: 8px;
+        margin-bottom: 3px !important;
+        font-size: 18px;
+    }
+    #event .event-item .event-text h4{
+        font-size:19px;
+    }
+    #event .event-item .event-text p {
+        margin-top: 22px;
+        margin-bottom: 23px !important;
+        padding-right: 25px;
+    }
+    #event .event-img img {
+        width: 89% !important;
+        margin-left: 23px;
+    }
+    /* event part ends */
+
+    /* book part starts */
+    #book .book-head h6 {
+        margin-top: 2px;
+        font-size: 18px;
+    }
+    #book .book-head h4 {
+        margin-top: 15px;
+        margin-bottom: 74px !important;
+        font-size: 18px;
+    }
+    #book .book-img1 img {
+        width: 42%;
+    }
+    #book .book-img2 {
+        top: 169px;
+        left: 372px;
+    }
+    #book .book-img2 img {
+        width: 96%;
+    }
+    #book .book-form input {
+        margin-bottom: 16px !important;
+        width: 306px;
+        margin-left: 22px;
+        font-size: 14px;
+    }
+    #book .book-form .btn {
+        width: 306px;
+        margin-left: 22px;
+    }
+    /* book part ends */
+
+    /* footer part starts */
+    #footer {
+        height: 515px;
+        margin-top: -120px;
+        margin-bottom: 30px !important;
+    }
+    #footer .footer-left .footer-logo {
+        margin-top: 50px;
+        margin-bottom: 35px !important;
+    }
+    #footer .footer-left .footer-logo img{
+        width: 73%;
+    }
+    #footer .footer-left p {
+        margin-bottom: 25px !important;
+        padding-right: 0px;
+    }
+    #footer .footer-right {
+        margin-top: 6px;
+        margin-left: 21px;
+    }
+    #footer .footer-right p span {
+        margin-right: 20px;
+        font-size: 18px;
+    }
+    #footer .footer-copy p{
+        margin-top: 45px;
+    }
+    #footer .social-links {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    #footer .social-links a i {
+        font-size: 18px;
+        color:#fff;
+    }
+    /* footer part ends */
 }
 /*========================
  small device  ends
@@ -499,6 +600,103 @@ extra small device ends
         margin-top: 25px;
     }
     /* service part ends */
+
+    
+     /* event part starts */
+     #event {
+        padding-top: 10px;
+    }
+    #event .event-item {
+        margin-left: 45px;
+    }
+    #event .event-item .event-text h5 {
+        margin-top: 10px;
+        margin-bottom: 10px !important;
+        font-size: 22px;
+    }
+    #event .event-item .event-text h4 {
+        font-size: 25px;
+    }
+    #event .event-item .event-text p {
+        margin-top: 22px;
+        margin-bottom: 23px !important;
+        padding-right: 20px;
+    }
+    #event .event-img img {
+        width: 89% !important;
+        margin-left: 23px;
+    }
+    /* event part ends */
+
+    /* book part starts */
+    #book .book-head h6 {
+        margin-top: 2px;
+        font-size: 18px;
+    }
+    #book .book-head h4 {
+        margin-top: 15px;
+        margin-bottom: 74px !important;
+        font-size: 18px;
+    }
+    #book .book-img1 img {
+        width: 42%;
+    }
+    #book .book-img2 {
+        top: 175px;
+        left: 86px;
+    }
+    #book .book-img2 img {
+        width: 43%;
+    }
+    #book .book-form input {
+        margin-bottom: 16px !important;
+        width: 166px;
+        margin-left: 22px;
+        font-size: 14px;
+    }
+    #book .book-form .btn {
+        width: 166px;
+        margin-left: 22px;
+    }
+    /* book part ends */
+
+    /* footer part starts */
+    #footer {
+        height: 405px;
+        margin-top: -120px;
+        margin-bottom: 30px !important;
+    }
+    #footer .footer-left .footer-logo {
+        margin-top: 50px;
+        margin-bottom: 35px !important;
+    }
+    #footer .footer-left .footer-logo img{
+        width: 73%;
+    }
+    #footer .footer-left p {
+        margin-bottom: 25px !important;
+        padding-right: 0px;
+    }
+    #footer .footer-right {
+        margin-top: 65px;
+        margin-left: 90px;
+    }
+    #footer .footer-right p span {
+        margin-right: 20px;
+        font-size: 18px;
+    }
+    #footer .footer-copy p{
+        margin-top: 45px;
+    }
+    #footer .social-links {
+        margin-left: 90px;
+        margin-top: 46px;
+    }
+    #footer .social-links a i {
+        font-size: 18px;
+        color:#fff;
+    }
+    /* footer part ends */
 }
 /*========================
  medium device css ends

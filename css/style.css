@@ -74,6 +74,23 @@ img{
     left:0;
     z-index: 999999;
 }
+.nav-fix{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    z-index: 999999;
+    background:#fff;
+    animation: navfix 1s linear;
+    -webkit-animation: navfix 1s linear;
+}
+@keyframes navfix{
+    0%{
+        top: -100px;
+    }
+    100%{
+        top:0px;
+    }
+}
 .navbar-expand-lg .navbar-nav .nav-link {
 	padding-right: 0;
 	padding-left: 60px;
@@ -332,8 +349,35 @@ img{
 #footer .social-links {
 	margin-left: 413px;
 }
-#footer .social-links i{
+#footer .social-links a i{
     font-size:24px;
     margin-right:5px;
+	color:#fff;
 }
 /* footer  part ends */
+
+/*=====================
+back to top part starts
+=====================*/
+.back-to-top {
+	position: fixed;
+	bottom: 88px;
+	right: 17px;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	background: #ffc045;
+	cursor: pointer;
+	z-index: 99999;
+	display: none;
+	border-radius: 30px;
+}
+.back-to-top i {
+	font-size: 20px;
+    color:#fff;
+	line-height: 30px;
+}
+/*=====================
+back to top part ends
+=====================*/
